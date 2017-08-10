@@ -11,7 +11,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
-public class LevelTiga extends AppCompatActivity {
+public class LevelDuake4 extends AppCompatActivity {
 
     AlertDialog.Builder builder;
     RadioGroup radiogroup;
@@ -20,14 +20,14 @@ public class LevelTiga extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_level_tiga);
+        setContentView(R.layout.activity_level_duake4);
 
         Button next1 = (Button) findViewById(R.id.button1);
         next1.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View bebek) {
                 Intent myIntent = new
-                        Intent(bebek.getContext(), LevelTigake1.class);
+                        Intent(bebek.getContext(), TebakGambar.class);
                 startActivityForResult(myIntent, 0);
             }
         });
@@ -50,7 +50,7 @@ public class LevelTiga extends AppCompatActivity {
         switch (view.getId()) {
             case R.id.radioButton1:
                 if (checked)
-                    jawabanSalah();
+                    tampilDialog();
                 break;
 
             case R.id.radioButton2:
@@ -63,7 +63,7 @@ public class LevelTiga extends AppCompatActivity {
                 break;
             case R.id.radioButton4:
                 if (checked)
-                    tampilDialog();
+                    jawabanSalah();
                 break;
         }
 
@@ -76,11 +76,11 @@ public class LevelTiga extends AppCompatActivity {
         builder = new AlertDialog.Builder(this);
         builder.setCancelable(false);
         builder.setTitle("Selamat !!!");
-        builder.setMessage("Jawaban anda benar : Spongebob");
+        builder.setMessage("Jawaban anda benar : Terong");
         builder.setPositiveButton("OKE", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                Toast.makeText(LevelTiga.this, "Selamat", Toast.LENGTH_SHORT).show();
+                Toast.makeText(LevelDuake4.this, "Selamat", Toast.LENGTH_SHORT).show();
             }
         });
 

@@ -25,7 +25,17 @@
         <activity android:name=".LevelLima" />
         <activity android:name=".Assalaam" />
         <activity android:name=".LevelSatuke1" />
-        <activity android:name=".LevelSatuke2"></activity>
+        <activity android:name=".LevelSatuke2" />
+        <activity android:name=".LevelSatuke3" />
+        <activity android:name=".LevelSatuke4" />
+        <activity android:name=".LevelDuake1" />
+        <activity android:name=".LevelDuake2" />
+        <activity android:name=".LevelDuake3" />
+        <activity android:name=".LevelDuake4" />
+        <activity android:name=".LevelTigake1" />
+        <activity android:name=".LevelTigake2" />
+        <activity android:name=".LevelTigake3" />
+        <activity android:name=".LevelTigake4"></activity>
     </application>
 
 </manifest>

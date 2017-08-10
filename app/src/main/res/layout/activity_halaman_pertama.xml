@@ -37,15 +37,6 @@
             android:layout_marginTop="200dp"
             android:id="@+id/Button1"/>
 
-        <Button
-            android:layout_width="fill_parent"
-            android:layout_height="80dp"
-            android:background="#0cca94"
-            android:textSize="15dp"
-            android:text="EXIT"
-            android:layout_marginTop="300dp"
-            android:id="@+id/exitBtn"/>
-
         <ImageButton
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -61,6 +52,18 @@
             android:id="@+id/bb"
             android:layout_marginTop="400dp"
             android:layout_alignParentLeft="true"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:background="#0cca94"
+            android:textSize="15dp"
+            android:text="EXIT"
+            android:layout_marginTop="20dp"
+            android:id="@+id/exitBtn"
+            android:layout_below="@+id/Button1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
 
     </RelativeLayout>
 

@@ -111,4 +111,15 @@
         </RadioButton>
     </RadioGroup>
 
+    <Button
+        android:text="Next"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:id="@+id/button1"
+        android:textColor="#fce701"
+        android:background="@drawable/hu"/>
+
 </RelativeLayout>
